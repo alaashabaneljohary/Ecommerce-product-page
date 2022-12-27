@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ecommerce-product">
+    <meta name="keywords" content="Ecommerce , product">
+    <meta name="author" content="Alaa Shaban">
+    <link rel="shortcut icon" href="images/aa.png" type="image/x-icon">
+    <title>Ecommerce Product</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+ <main >
+  <header>
+    <div class="container">
+      <div class="header-main">
+        <div id="menu" class="d-lg-none" ><i class="fa-sharp fa-solid fa-bars"></i></div>
+         <div class="logo">
+            <a href="index.html"> sneakers</a>
+         </div>
+         <ul class="nav d-none d-lg-flex">
+           <li class="nav-item"><a href="index.html" class="nav-link">collection</a></li> 
+           <li class="nav-item"><a href="index.html" class="nav-link">men</a></li> 
+           <li class="nav-item"><a href="index.html" class="nav-link">women</a></li> 
+           <li class="nav-item"><a href="index.html" class="nav-link">about</a></li> 
+           <li class="nav-item"><a href="index.html" class="nav-link">contact</a></li> 
+         </ul>
+         <div class="link d-flex align-items-center position-relative">
+            <div class="icon mr-3">
+                <i class=" text-dark fas fa-shopping-cart fa-2x"></i>
+                <p  id="numPrice">0</p>
+            </div>
+            <img src="images/aa.png" style="width: 30px;"  alt="team">
+            <div class="card" >
+                <span class="title-1">Cart</span>
+                <div id="rowData">Your cart is empty </div>
+              </div>
+         </div>
+        
+      </div>
+    </div>
+   <ul class="nav-menu list-unstyled pt-3">
+    <div id="closeMenu" class="ml-4 d-block"> <i class="fa-solid fa-circle-xmark"></i></div>
+    <li class="nav-item mb-3"><a href="index.html" class="text-dark nav-link">collection</a></li> 
+    <li class="nav-item mb-3"><a href="index.html" class="text-dark nav-link">men</a></li> 
+    <li class="nav-item mb-3"><a href="index.html" class="text-dark nav-link">women</a></li> 
+    <li class="nav-item mb-3"><a href="index.html" class="text-dark nav-link">about</a></li> 
+    <li class="nav-item mb-3"><a href="index.html" class="text-dark nav-link">contact</a></li> 
+   </ul> 
+  </header>
+ </main>  
+
+ <section class="product-wrapper py-5">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <img src="images/image-product-1.jpg" class="mainImage shadow-lg w-100" alt="">
+            <div class="itemImages d-flex align-items-center justify-content-between mt-3">
+              <img src="images/image-product-1.jpg" class="w-25 p-2 shadow-lg" alt="">  
+              <img src="images/image-product-2.jpg" class="w-25 p-2 shadow-lg" alt="">  
+              <img src="images/image-product-3.jpg" class="w-25 p-2 shadow-lg" alt="">  
+              <img src="images/image-product-4.jpg" class="w-25 p-2 shadow-lg" alt="">  
+            </div>
+           </div>
+           <div class="col-md-6 col-sm-12">
+            <div class="d-flex flex-column justify-content-center h-100">
+                <div><span class="sub-title font-weight-bold mainColor">Sneaker Company</span></div>
+                <h1 class="title">Fall Limited Edition <br> Sneakers</h1>
+                <div class="text-dark">
+                    These low-profile sneakers are your perfect casual wear companion. Feauring a durable rubber outer sole, they'll withstand everything the weather can offer
+                </div>
+                <div id="price" class="price font-weight-bold fa-2x text-dark">125.00</div>
+                <div><del class="text-muted">250.00</del> </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+                    <input type="number" id="inputVal">
+                    
+                    <button class="btn btn-them p-3"><i class=" text-white fas fa-shopping-cart mr-4"></i> ADD To Cart</button>
+                </div>
+            </div>
+            
+           </div>
+    </div>
+  </div>
+ </section>
+    <!-- SCRIPT LINK -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
